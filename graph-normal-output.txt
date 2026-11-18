@@ -1,0 +1,48 @@
+{
+  "at_utc": "2026-11-18T01:38:51.195244+00:00",
+  "query": "選擇架構",
+  "steps": [
+    {
+      "node": "ingest_sources",
+      "pass": true,
+      "detail": "6 份公開摘要／網頁中文轉述筆記；非全文"
+    },
+    {
+      "node": "retrieve_wiki",
+      "pass": true,
+      "detail": [
+        "W01.md",
+        "W05.md"
+      ]
+    },
+    {
+      "node": "check_source_links",
+      "pass": true,
+      "detail": "檢索頁面所列 source_ids 必須存在於 catalog"
+    },
+    {
+      "node": "check_claim",
+      "pass": true,
+      "detail": {
+        "attempt": 1,
+        "claim": "選擇架構可能影響選擇"
+      }
+    },
+    {
+      "node": "validate_html_static",
+      "pass": true,
+      "detail": {
+        "12_slides": true,
+        "wiki_refs": true,
+        "interactive_menu": true,
+        "interactive_machine": true,
+        "quiz": true
+      }
+    }
+  ],
+  "rejections": [],
+  "retry_count": 0,
+  "mode": "本地可執行檢索與證據規則檢查，無 LLM API",
+  "status": "PASS",
+  "final_claim": "選擇架構可能影響選擇"
+}

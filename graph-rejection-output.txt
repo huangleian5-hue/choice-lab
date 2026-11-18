@@ -1,0 +1,70 @@
+{
+  "at_utc": "2026-11-18T01:38:52.090061+00:00",
+  "query": "選擇架構",
+  "steps": [
+    {
+      "node": "ingest_sources",
+      "pass": true,
+      "detail": "6 份公開摘要／網頁中文轉述筆記；非全文"
+    },
+    {
+      "node": "retrieve_wiki",
+      "pass": true,
+      "detail": [
+        "W01.md",
+        "W05.md"
+      ]
+    },
+    {
+      "node": "check_source_links",
+      "pass": true,
+      "detail": "檢索頁面所列 source_ids 必須存在於 catalog"
+    },
+    {
+      "node": "check_claim",
+      "pass": false,
+      "detail": {
+        "attempt": 1,
+        "claim": "只要放在最顯眼的位置，銷量一定增加100%"
+      }
+    },
+    {
+      "node": "revise_claim",
+      "pass": true,
+      "detail": {
+        "revision": "商品位置與資訊呈現可能影響注意力，但銷量效果仍需驗證。",
+        "method": "規則式替換，非 LLM 改寫"
+      }
+    },
+    {
+      "node": "check_claim",
+      "pass": true,
+      "detail": {
+        "attempt": 2,
+        "claim": "商品位置與資訊呈現可能影響注意力，但銷量效果仍需驗證。"
+      }
+    },
+    {
+      "node": "validate_html_static",
+      "pass": true,
+      "detail": {
+        "12_slides": true,
+        "wiki_refs": true,
+        "interactive_menu": true,
+        "interactive_machine": true,
+        "quiz": true
+      }
+    }
+  ],
+  "rejections": [
+    {
+      "node": "check_claim",
+      "reason": "絕對化且缺乏來源支持",
+      "rejected_claim": "只要放在最顯眼的位置，銷量一定增加100%"
+    }
+  ],
+  "retry_count": 1,
+  "mode": "本地可執行檢索與證據規則檢查，無 LLM API",
+  "status": "PASS",
+  "final_claim": "商品位置與資訊呈現可能影響注意力，但銷量效果仍需驗證。"
+}

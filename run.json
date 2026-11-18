@@ -1,0 +1,26 @@
+{
+  "timestamp_utc": "2026-11-18T01:34:05.225461+00:00",
+  "status": "PASS",
+  "steps": [
+    {
+      "node": "ingest_catalog",
+      "count": 6,
+      "pass": true
+    },
+    {
+      "node": "wiki_retrieval",
+      "count": 5,
+      "pass": true
+    },
+    {
+      "node": "evidence_check",
+      "pass": true
+    },
+    {
+      "node": "html_validator_static",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "note": "Static checks only; manual browser testing required. No LLM generation occurred."
+}

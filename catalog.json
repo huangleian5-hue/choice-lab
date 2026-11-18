@@ -1,0 +1,74 @@
+[
+  {
+    "id": "S01",
+    "title": "Choice Architecture",
+    "authors": "Richard H. Thaler; Cass R. Sunstein; John P. Balz",
+    "year": "2012",
+    "url": "https://hls.harvard.edu/bibliography/choice-architecture/",
+    "kind": "公開摘要",
+    "scope": "此文為理論論述，不直接測試餐廳菜單或日本販賣機。",
+    "ingest_status": "已核對並匯入公開摘要之中文轉述",
+    "verified_summary": "選擇不是在真空中發生；決策環境的預設、回饋、選項組織等元素可影響判斷。",
+    "accessed_on": "2026-11-18"
+  },
+  {
+    "id": "S02",
+    "title": "Eye Movements on Restaurant Menus",
+    "authors": "作者資訊未由已讀摘要確認",
+    "year": "2012",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0278431911002015",
+    "kind": "公開摘要",
+    "scope": "不支持所有菜單都有固定的最吸睛區域。",
+    "ingest_status": "已核對並匯入公開摘要之中文轉述",
+    "verified_summary": "以眼動儀研究餐廳菜單的掃視路徑，指出實際視線路徑與部分業界流傳的「菜單黃金區」說法不同。",
+    "accessed_on": "2026-11-18"
+  },
+  {
+    "id": "S03",
+    "title": "Eating with the Eyes?",
+    "authors": "María Mora 等",
+    "year": "2023",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0950329323001507",
+    "kind": "公開摘要與公開網頁研究說明",
+    "scope": "研究不代表加上推薦標示必然提高某道料理的銷售。",
+    "ingest_status": "已核對並匯入公開摘要之中文轉述",
+    "verified_summary": "比較基本菜單、描述菜單及營養資訊菜單；在前兩種條件下，注視時間與選擇有關，但營養資訊條件下預測能力降低。",
+    "accessed_on": "2026-11-18"
+  },
+  {
+    "id": "S04",
+    "title": "Does In-Store Marketing Work?",
+    "authors": "Pierre Chandon; J. Wesley Hutchinson; Eric T. Bradlow; Scott H. Young",
+    "year": "2009",
+    "url": "https://journals.sagepub.com/doi/10.1509/jmkg.73.6.1",
+    "kind": "公開摘要",
+    "scope": "超市貨架證據不可直接當成日本販賣機的實測結果。",
+    "ingest_status": "已核對並匯入公開摘要之中文轉述",
+    "verified_summary": "貨架展示面數量與位置會影響注意力及品牌評估；中層與上層都可能吸引注意，但不一定同樣提升品牌評估。",
+    "accessed_on": "2026-11-18"
+  },
+  {
+    "id": "S05",
+    "title": "Looking Is Buying",
+    "authors": "Kerstin Gidlöf; Andrey Anikin; Martin Lingonblad; Annika Wallin",
+    "year": "2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28433775/",
+    "kind": "PubMed 公開摘要",
+    "scope": "關聯不能直接證明僅靠改變位置就能提升銷售。",
+    "ingest_status": "已核對並匯入公開摘要之中文轉述",
+    "verified_summary": "真實超市中的眼動研究指出，商品視覺顯著性與消費者個人偏好都影響注意力；注意力與購買具有關聯。",
+    "accessed_on": "2026-11-18"
+  },
+  {
+    "id": "S06",
+    "title": "The Effectiveness of Nudging",
+    "authors": "Stephanie Mertens; Mario Herberz; Ulf J. J. Hahnel; Tobias Brosch",
+    "year": "2022",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8740589/",
+    "kind": "PMC 公開摘要與部分公開全文",
+    "scope": "統合效果不能直接套用於本簡報的菜單或販賣機模擬。",
+    "ingest_status": "已核對並匯入公開摘要之中文轉述",
+    "verified_summary": "對 214 篇出版品、455 個效果量進行統合分析，整體效果 d=0.45，介入類型及領域存在差異，並提及發表偏誤。",
+    "accessed_on": "2026-11-18"
+  }
+]
